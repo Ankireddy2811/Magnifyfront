@@ -1,0 +1,123 @@
+.home-container{
+    min-height: 100vh;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg, #FF512F, #DD2476);  */
+    background-color:rosybrown; 
+
+    padding: 30px
+
+}
+
+.heading-button{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content:center;
+
+
+
+}
+
+.create-button{
+    visibility: visible;
+    animation-delay: 0.8s;
+    animation-name: fadeIn;
+    background: linear-gradient(135deg,#3F74A3,#0000AA 32%,#4D4DFF);
+    box-shadow: 0 10px 15px 0px rgba(175, 0, 87, .2);
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    margin-left: 90px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.edit-button.saved {
+    background-color:#FF9800; 
+  }
+.unordered-container{
+    width: 100%;
+    list-style: none;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+
+.first-main-heading{
+ font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; 
+  text-align: center;
+  
+}
+
+.plus-icon{
+    font-size: 20px;
+    
+}
+
+@media (max-width:768px){
+    .unordered-container{
+     flex-direction: column;
+     padding-left: 0px;
+     padding: 0px;
+    }
+    .first-main-heading{
+        font-size: 17px;
+    }
+    .create-button{
+        margin-left: 30px;
+    }
+    
+   }
+   .students-table {
+    padding-left: 0;
+    margin-top: 48px;
+    width: 99%;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f1f5f9;
+    list-style-type: none;
+    border: 1px solid #cbd5e1;
+    
+    
+  }
+  
+  .table-header-cell {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 32px;
+  }
+  
+  .name-column {
+    width: 15%;
+    border-right: none;
+  }
+  
+  .separator {
+    margin: 0;
+    border: 1px solid #cbd5e1;
+  }
+  
